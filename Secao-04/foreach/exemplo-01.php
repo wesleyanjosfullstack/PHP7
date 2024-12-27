@@ -6,6 +6,12 @@ $months = [
     'Setembro', 'Outubro', 'Novembro', 'Dezembro'
 ];
 
-foreach ($months as $month) echo $month .'<br>';
+foreach ($months as $month) echo 'O mês é '. $month .'<br>';
+
+echo '<hr>';
+
+foreach ($months as $index => $month) {
+    echo 'No indice: '. $index .', o mês é '. $month .'<br>';
+}
 
 ?>
