@@ -7,4 +7,6 @@ define('DATABASE', [
     'test'
 ]);
 
+print_r(DATABASE);
+
 ?>
